@@ -27,7 +27,7 @@ export default class pcpjp2021_tb_usuario extends Model {
       allowNull: true
     },
     ds_senha: {
-      type: DataTypes.STRING(20),
+      type: DataTypes.STRING(100),
       allowNull: true
     },
     bt_ativo: {

@@ -6,6 +6,7 @@ create table PCPJP2021_tb_adm (
   
 );
 
+
 create table PCPJP2021_tb_usuario (
   id_usuario    int primary key auto_increment,
   nm_usuario    varchar(150),

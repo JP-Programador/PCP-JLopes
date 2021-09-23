@@ -22,6 +22,10 @@ export default class pcpjp2021_tb_controle_estoque extends Model {
       type: DataTypes.STRING(200),
       allowNull: true
     },
+    vl_lucro: {
+      type: DataTypes.DECIMAL(10,2),
+      allowNull: true
+    },
     dt_movimentacao: {
       type: DataTypes.DATEONLY,
       allowNull: true
